@@ -5,7 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: black;
+}
 .container {
+    margin: 10vh auto;
     width: 400px;
     height: 200px;
     background: url("../assets/background.png") center/cover;
@@ -32,7 +37,9 @@
     
 }
 
-.container ul li span {
+.container ul li a {
+    text-decoration: none;
+    color: black;
     position: relative;
     top: 5px;
     left: 30px;
